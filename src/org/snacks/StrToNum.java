@@ -8,7 +8,9 @@ public class StrToNum {
 
         for (int i = 0; i < input.length(); i++) {
             char digit = input.charAt(i);
+
             output = output * 10 + (digit - '0');
+            System.out.println(digit);
         }
 
         System.out.println("Il numero intero è: " + output);
