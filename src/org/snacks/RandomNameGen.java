@@ -8,7 +8,7 @@ public class RandomNameGen {
         Random randomGenerator = new Random();
         int randomNum ;
         for (int i = 0; i < 10; i++) {
-            randomNum = randomGenerator.nextInt(0, 6);
+            randomNum = randomGenerator.nextInt(0, names.length);
             System.out.println(names[ randomNum] +" "+surnames[randomNum] );
         }
     }
